@@ -50,3 +50,4 @@ npm run test
 
 - Add search feature since the groups and doors have a limit of 5/page for better user experience.
 - Filter out chosen doors from select options when creating a new door, this way, a user does not click an already added door. React-select could help with this out of the box.
+- I'd love to add active class to the left dashboard menu so as to recognize the current page.
