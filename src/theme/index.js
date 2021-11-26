@@ -20,6 +20,16 @@ let theme = createTheme({
       light: '#D1C4E9',
       contrastText: '#512DA8'
     }
+  },
+  components: {
+    MuiTooltip: {
+      styleOverrides: {
+        tooltip: {
+          color: '#512DA8',
+          backgroundColor: '#e2dbee'
+        }
+      }
+    }
   }
 })
 
