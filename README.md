@@ -21,7 +21,7 @@ This is a frontend web development project to demonstrate technical prowess to i
 
 [Kisi API](https://api.kisi.io/docs#/) is consumed throughout.
 
-### [Live Demo](https://61a0ed81e5f3f2171f4424e7--naughty-albattani-4f74a2.netlify.app/)
+### [Live Demo](https://naughty-albattani-4f74a2.netlify.app/)
 
 
 ### Local Setup
@@ -31,6 +31,12 @@ After cloning, run the following commands:
 ```
 npm install
 npm start
+```
+
+Create a `.env` file and copy the contents of `.env.sample` into it. Add the value of your own kisi email and password.
+```
+REACT_APP_EMAIL=mykisi@email.com
+REACT_APP_PASSWORD=KisiPassword
 ```
 
 ### Running Tests
